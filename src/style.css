@@ -1,0 +1,57 @@
+/* Body background */
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-family: "Times New Roman", Times, serif; /* Set font to Times New Roman */
+}
+
+/* Customize Bootstrap cards */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Times New Roman", Times, serif; /* Set font for cards */
+}
+
+/* Button customization */
+.btn-primary {
+  background-color: #343a40;
+  border-color: #343a40;
+  font-family: "Times New Roman", Times, serif; /* Set font for buttons */
+}
+
+.btn-primary:hover {
+  background-color: #212529;
+  border-color: #212529;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  font-family: "Times New Roman", Times, serif; /* Set font for secondary buttons */
+}
+
+.btn-secondary:hover {
+  background-color: #495057;
+  border-color: #495057;
+}
+
+/* Navbar custom styling */
+.navbar {
+  background-color: #343a40 !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #f8f9fa !important;
+  font-family: "Times New Roman", Times, serif; /* Set font for navbar */
+}
+
+.nav-link:hover {
+  color: #ced4da !important;
+}
+
+/* Padding for content */
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
